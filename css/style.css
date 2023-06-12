@@ -492,7 +492,10 @@ body {
   color: #102746;
 }
 .wrapper {
-  max-width: 1060px;
+  max-width: 1160px;
+  width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
   margin: 0 auto;
 }
 .header {
@@ -529,9 +532,69 @@ body {
   opacity: 0.75;
 }
 /* HEADER STYTLES END  */
-/* linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%); */
+
+/* intro styles start */
 .intro {
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(../images/hero-overlay.jpg);
   background-size: cover;
+  padding-top: 263px;
 }
+.intro__title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60px;
+  color: #fff;
+  max-width: 619px;
+  margin-bottom: 22px;
+}
+.intro__subtitle {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 25px;
+  color: #fff;
+  max-width: 546px;
+  margin-bottom: 59px;
+}
+.search-form__info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+/* .search-form__wrap {
+} */
+.search-form__input {
+  /* background-color: transparent; */
+  background: url(../images/svg/icon-circle.svg) no-repeat left top;
+  background-size: 20px;
+  border: 0;
+  border-bottom: 2px solid #bfc0c5;
+  /* margin-right: 60px; */
+  width: 297px;
+  padding-left: 43px;
+  padding-bottom: 22px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+.search-form__input::placeholder {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+.search-form__submit {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 15px 39px;
+  background-color: #1b7dff;
+  font-weight: 500;
+  font-style: 24px;
+  border: 0;
+  transition: 0.3s ease-in-out;
+}
+.search-form__submit:hover,
+.search-form__submit:focus,
+.search-form__submit:active {
+  background-color: #0b60d1;
+}
+/* intro styles end */
