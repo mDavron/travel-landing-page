@@ -496,6 +496,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+html {
+  scroll-behavior: smooth;
+}
 .wrapper {
   max-width: 1160px;
   width: 100%;
@@ -808,6 +811,95 @@ img {
 }
 /* Tour end */
 
-/* Top start */
+/* Top places start */
+.top {
+  margin-bottom: 85px;
+}
+.top__title {
+  margin-bottom: 54px;
+}
+.top__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 58px;
+  margin-bottom: 100px;
+}
+.top__card-pic {
+  position: relative;
+  background-color: #0b60d1;
+}
+.top__card-image {
+  width: 100%;
+  object-fit: cover;
+}
+.top__card-stats {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: rgba(21, 24, 36, 0.6);
+  padding: 16px 25px 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+.top__card-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.card__stats-right {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.top__card-stats span {
+  margin-right: 4px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.top__card-stats img {
+  cursor: pointer;
+}
+.top__card-desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #102746;
+  margin-top: 45px;
+}
+.top__card-link {
+  background-color: #006dfe;
+  padding: 12px 19px;
+  border: none;
+  color: #fff;
+  margin-top: 31px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+}
+.top__card-link::after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
+  transition: 0.5s ease-in-out;
+  z-index: -1;
+}
+.top__card-link:hover::after {
+  width: 100%;
+}
 
-/* Top end */
+/* Top places end */
