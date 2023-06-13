@@ -706,7 +706,9 @@ img {
   background-position: right center;
 }
 /* Places start */
-
+.places {
+  margin-bottom: 131px;
+}
 .places__caption {
   display: flex;
   flex-wrap: wrap;
@@ -764,5 +766,48 @@ img {
   line-height: 60px;
   color: #fff;
 }
-
+.places_card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 5;
+}
 /* Places end */
+
+/* Tour start */
+.tours {
+  margin-bottom: 139px;
+}
+.tours__wpap {
+}
+.tours__tour {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 108px;
+  row-gap: 77px;
+  align-items: center;
+}
+.tour__info {
+  padding-left: 47px;
+}
+.tour__title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #102746;
+  margin-bottom: 85px;
+}
+.tour__desc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #102746;
+  margin-bottom: 58px;
+}
+/* Tour end */
+
+/* Top start */
+
+/* Top end */
