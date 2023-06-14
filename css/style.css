@@ -1028,13 +1028,16 @@ html {
     grid-template-columns: 1fr;
   }
   .tour__info:nth-child(1) {
-  }
-  .tour__info:nth-child(2) {
+    grid-row: 1;
   }
   .tour__pic:nth-child(1) {
+    grid-row: 2;
+  }
+  .tour__info:nth-child(1) {
+    grid-row: 3;
   }
   .tour__pic:nth-child(2) {
-    grid-row: 3;
+    grid-row: 4;
   }
   /* ====== */
 }
