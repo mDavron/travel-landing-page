@@ -987,6 +987,10 @@ html {
   }
 }
 @media (max-width: 541px) {
+  .intro {
+    padding-top: 180px;
+    padding-bottom: 100px;
+  }
   .intro__title {
     font-weight: 500;
     font-size: 2.2rem;
@@ -994,6 +998,10 @@ html {
   }
   .benefites {
     margin-bottom: 50px;
+  }
+  .benefites__title {
+    position: relative;
+    transform: translateY(0);
   }
   .benefites__cards {
     display: grid;
